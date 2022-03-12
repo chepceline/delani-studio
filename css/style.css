@@ -105,7 +105,7 @@ html{
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
-    /* text-align: center; */
+  
   }
 
   .title{
@@ -147,4 +147,20 @@ html{
     margin-left: 20%;
     padding-bottom: 30px;
     margin-bottom: 20px;
+  }
+
+  footer{
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Delius Swash Caps', cursive;
+  }
+
+  footer p{
+    margin-top: 10px;
+  }
+
+  #product, #development, #design{
+    display: none;
+    font-family: 'Copse', serif;
+    font-size: 16px;
   }
