@@ -105,7 +105,7 @@ html{
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
-  
+    /* text-align: center; */
   }
 
   .title{
@@ -126,7 +126,7 @@ html{
     font-size: 20px;
     font-family: 'Copse', serif;
   }
-  
+
   .form-control::-webkit-input-placeholder { 
     color: white; 
   }
@@ -136,13 +136,16 @@ html{
     margin-left: 18%;
     margin-right: 30px;
   }
+
   #MERGE0{
     width: 30%;
   }
+
   #comment{
     margin-left: 20%;
     width: 60%;
   }
+
   button{
     margin-left: 20%;
     padding-bottom: 30px;
@@ -159,8 +162,12 @@ html{
     margin-top: 10px;
   }
 
-  #product, #development, #design{
-    display: none;
-    font-family: 'Copse', serif;
-    font-size: 16px;
-  }
+
+  
+
+  
+
+  
+
+  
+  
