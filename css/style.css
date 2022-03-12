@@ -162,6 +162,16 @@ html{
     margin-top: 10px;
   }
 
+  #product, #development, #design{
+    display: none;
+    font-family: 'Copse', serif;
+    font-size: 16px;
+  }
+
+  #product .title, #development .title, #design .title{
+    font-size: 20px;
+    font-weight: 600;
+  }
 
   
 
