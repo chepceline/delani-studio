@@ -81,78 +81,71 @@ html{
   .what-we-do .headings{
     padding-bottom: 38px;
   }
-
-  #portfolio{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    margin-left:18%;
-    margin-right: 16%; 
+  .overlay{
+    background-color: black;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 90%;
   }
-  .col-md-3 img{
-    max-width: 100%;
-    max-height: 100%;
+  .work-image{
+    position: relative;
+  
   }
-  .portfolio h2{
+  .wonger{
+    width: 80%;
+    height: 80%;
+    border: 2px solid #fff;
+    margin-left: 10%;
+    margin-top: 10%;
+  }
+  .wonger h1{
     text-align: center;
-    padding-top:40px;
-    font-family: 'Gabriela', serif;
+    font-size: 25px;
+    padding-top: 30%;
+    font-style:oblique;
+  
+  }
+  #form{
+    background-image: url("../img/background/third.jpg");
   }
 
-  .contact{
-    background-image: url('../img/background/third.jpg');
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: white;
-    /* text-align: center; */
-  }
+.input{
+  display: inline;
 
-  .title{
-    padding: 6px;
-  }
+}
+#form input{
+  width:35%;
+  background-color: transparent;
 
-  .contact h2{
-    text-align: center;
-    margin-top: 30px;
-    padding-top: 40px;
-    padding-bottom: 20px;
-    font-family: 'Gabriela', serif;
-  }
+}
+#name{
+  margin-left: 12%;
+  color :white;
+}
+#email{
+  margin-left:5%;
+  color: white;
+}
+#form textarea{
+  background-color: transparent;
+  color: white;
+}
+#email::placeholder{
+  color: white;
+}
 
-  input[type=text],input[type=email],#comment{
-    background: transparent;
-    color: white;
-    font-size: 20px;
-    font-family: 'Copse', serif;
-  }
-
-  .form-control::-webkit-input-placeholder { 
-    color: white; 
-  }
-
-  #MERGE1{
-    width: 30%;
-    margin-left: 18%;
-    margin-right: 30px;
-  }
-
-  #MERGE0{
-    width: 30%;
-  }
-
-  #comment{
-    margin-left: 20%;
-    width: 60%;
-  }
-
-  button{
-    margin-left: 20%;
-    padding-bottom: 30px;
-    margin-bottom: 20px;
-  }
-
-  footer{
+#name::placeholder{
+  color: white;
+}
+textarea::placeholder{
+  color: white;
+}
+.icon{
+  padding-left: 20px;
+}
+    footer{
     text-align: center;
     padding-top: 30px;
     font-family: 'Delius Swash Caps', cursive;
@@ -173,79 +166,14 @@ html{
     font-weight: 600;
   }
 
-  #overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
+.work1-overlay,.work2-overlay,.work3-overlay,.work4-overlay,.work5-overlay,.work6-overlay,.work7-overlay,.work8-overlay {
     display: none;
-    color: black;
-    width: 100%;
-    height: 100%;
-    background-color:rgba(255, 255, 255, 0.456);
-    position:absolute;
-    top: 20px;
-    left: 35px;
-    font-weight: bold;
-    text-align: center;
-    font-size: 30px;
-    padding-top: 50%;
-    font-family: 'Delius Swash Caps', cursive;
-  }
+    background-color: black;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 90%;
+
+}
   
-  @media only screen and (max-width: 755px){
-    #overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
-      width: 100%;
-      height: 100%;
-      top: 20px;
-      left: 16px;
-      padding-top: 20%;}
-  }
-  
-    .col-md-3 img{
-      width:100%px;
-      margin: 20px;
-    }
-
-    #portfolio{
-      margin-left:8%;
-      margin-right: 16%; 
-    }
-
-    button{
-      margin-left: 2%;
-      padding-bottom: 30px;
-      margin-bottom: 20px;
-    }
-
-    @media only screen and (min-width: 825px){
-      #overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
-        width: 100%;
-        height: 100%;
-        top: 20px;
-        left: 20px;
-        padding-top:30%;}
-      }
-
-      .col-md-3 img{
-        width: 400px;
-        margin: 20px;
-      }
-      #portfolio{
-        margin-left:10%;
-        margin-right: 10%; 
-      }
-      
-      @media only screen and (min-width: 625px){
-      #overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
-        width: 100%;
-        height: 100%;
-        top: 20px;
-        left: 20px;
-        padding-top:20%; 
-        font-size: 26px;}
-      }
-      .col-md-3 img{
-        width: 400px;
-        margin: 20px;
-      }
-      #portfolio{
-        margin-left:6%;
-        margin-right: 10%; 
-      }
